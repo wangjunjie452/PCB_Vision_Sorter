@@ -1,0 +1,10 @@
+camera:
+  index: 0          # 0代表电脑自带摄像头，外接相机到货后改成1或2
+  width: 640        # 画面宽度
+  height: 480       # 画面高度
+
+processing:
+  blur_kernel: 5    # 模糊程度（必须是奇数：3,5,7...）
+  adaptive_block: 21 # 识别窗口大小（必须是奇数）
+  adaptive_C: 2     # 灵敏度（数字越大识别越宽松）
+
