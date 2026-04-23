@@ -6,5 +6,5 @@ camera:
 processing:
   blur_kernel: 5    # 模糊程度（必须是奇数：3,5,7...）
   adaptive_block: 21 # 识别窗口大小（必须是奇数）
-  adaptive_C: 2     # 灵敏度（数字越大识别越宽松）
+  adaptive_C: 8     # 灵敏度（数字越大识别越宽松）
 
